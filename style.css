@@ -1,0 +1,124 @@
+.logo p, .logo img {
+  margin-left: 35px;
+}
+
+.container {
+  border: 1px solid #dadce0;
+  height: auto;
+  width: 60%;
+  margin-left: 20%;
+  border-radius: 5px;
+  display: flex;
+}
+
+.logo img {
+  padding-top: 25px;
+}
+.logo p {
+  font-size: 23px;
+}
+
+form .password-area input, form .user-text input, form .name-text input {
+  border: 1px solid #dadce0;
+  border-radius: 5px;
+  width: 42%;
+  height: 35px;
+}
+
+form {
+  padding-bottom: 20px;
+  margin-left: 28px;
+}
+form .user-text {
+  padding-top: 20px;
+  margin-right: 3px;
+}
+form .user-text input {
+  height: 40px;
+  width: 87%;
+}
+form .user-text span {
+  margin-left: 8px;
+  color: #313133;
+  font-size: 15px;
+}
+form .current {
+  color: #8434E2;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+form .password-area {
+  padding-top: 10px;
+}
+form .password-area span {
+  margin-left: 8px;
+  color: #313133;
+  font-size: 15px;
+}
+form .checkbox {
+  margin-left: 5px;
+  padding-top: 8px;
+}
+form .checkbox #checkbox {
+  width: 50px;
+}
+form .checkbox label {
+  margin-left: 15px;
+  color: #313133;
+}
+
+.submit-area {
+  display: inline-flex;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  margin-left: 25px;
+}
+.submit-area .left a {
+  text-decoration: none;
+  font-size: x-large;
+  font-weight: bold;
+}
+.submit-area .right {
+  margin-left: 110px;
+}
+.submit-area .right button {
+  border: none;
+  background-color: #014FC1;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 5px;
+}
+
+.right-side {
+  margin-left: 50px;
+  padding-top: 140px;
+}
+.right-side p {
+  text-align: center;
+  color: #313133;
+}
+
+footer {
+  display: inline-flex;
+  margin-left: 255px;
+  margin-top: 13px;
+}
+footer P {
+  color: #313133;
+}
+footer .right {
+  margin-left: 390px;
+}
+footer .right li {
+  display: inline-flex;
+  list-style: none;
+  margin: 15px;
+  color: #313133;
+}
+footer #language {
+  border: none;
+  background-color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

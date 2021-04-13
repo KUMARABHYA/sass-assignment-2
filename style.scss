@@ -1,0 +1,172 @@
+@import "variables";
+
+
+
+%margin{
+    margin-left: 35px;
+}
+
+.container{
+    border:$border;
+    height: auto;
+    width: 60%;
+    margin-left: 20%;
+    border-radius: $radius;
+    display: flex;
+}
+.logo{
+    img{
+        padding-top: 25px;
+        @extend%margin;
+       
+    }
+    p{
+        @extend%margin;
+        font-size: 23px;
+    }
+}
+
+%input {
+    border: $border;
+    border-radius: $radius;
+    width: 42%;
+    height: 35px;
+}
+
+
+form
+  {
+     padding-bottom: 20px;
+     margin-left: 28px;
+
+    .name-text{
+        
+    
+        input{
+            
+            @extend%input;
+            
+        }
+        
+
+    }
+    .user-text{
+        
+        padding-top: 20px;
+        
+        margin-right: 3px;
+        
+        
+        input{
+            
+            height: 40px;
+            width: 87%;
+            @extend%input;
+           
+        }
+        span{
+            margin-left: 8px;
+            color: $page;
+            font-size: 15px;
+        }
+        
+    }
+   
+    .current{
+        color: $primary;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 5px;
+    }
+
+    .password-area{
+        padding-top: 10px;
+        input{
+            @extend%input;
+          
+        }
+        span{
+            margin-left: 8px;
+            color: $page;
+            font-size: 15px;
+        }
+        
+    }
+    .checkbox{
+       margin-left: 5px;
+       padding-top: 8px;
+       
+        #checkbox{
+            width: 50px;
+        }
+        label{
+            margin-left: 15px;
+            color: $page;
+        }
+
+    }
+}
+
+.submit-area{
+    display: inline-flex;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    margin-left: 25px;
+    .left{
+        a{
+            text-decoration: none;
+            font-size: x-large;
+            font-weight: bold;
+        }
+    }
+
+    .right{
+        margin-left: 110px;
+        button{
+            border: none;
+            background-color: $dark;
+            color: $light;
+            padding: 10px 25px;
+            border-radius: $radius;
+            
+        }
+    }
+}
+
+
+.right-side{
+
+    margin-left: 50px;
+   padding-top: 140px;
+    
+    p{
+        text-align: center;
+        color: $page;
+    }
+}
+
+
+footer{
+    display: inline-flex;
+    margin-left: 255px;
+    margin-top: 13px;
+    P{
+        color: $page;
+    }
+    .right{
+        margin-left: 390px;
+        li{
+            display: inline-flex;
+        list-style: none;
+        
+        margin: 15px;
+        color:$page;
+        }
+        
+        
+    }
+    #language{
+        border: none;
+        background-color: white;
+    }
+}
